@@ -8004,3 +8004,763 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.07.18-20.12.37:475][547]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
 [2025.07.18-20.12.37:481][547]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
 [2025.07.18-20.12.37:537][549]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2025.07.18-20.15.25:203][971]Cmd: DELETE
+[2025.07.18-20.15.25:203][971]Cmd: ACTOR DELETE
+[2025.07.18-20.15.25:205][971]LogEditorActor: Deleted Actor: FallingFoodABase_C
+[2025.07.18-20.15.25:227][971]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.07.18-20.15.25:228][971]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2025.07.18-20.15.26:586][128]Cmd: DELETE
+[2025.07.18-20.15.26:586][128]Cmd: ACTOR DELETE
+[2025.07.18-20.15.26:588][128]LogEditorActor: Deleted Actor: FallingFoodFish_C
+[2025.07.18-20.15.26:608][128]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.07.18-20.15.26:610][128]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2025.07.18-20.15.27:463][224]Cmd: DELETE
+[2025.07.18-20.15.27:463][224]Cmd: ACTOR DELETE
+[2025.07.18-20.15.27:464][224]LogEditorActor: Deleted Actor: FallingFoodFish_C
+[2025.07.18-20.15.27:485][224]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.07.18-20.15.27:486][224]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2025.07.18-20.16.24:740][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.07.18-20.16.24:748][ 38]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/MainLevel_Auto1
+[2025.07.18-20.16.24:749][ 38]LogSavePackage: Moving 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Saved/MainLevel_Auto1B4E9129D46A4FD5BF97DD9B3AB2698CF.tmp' to 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Saved/Autosaves/Game/Levels/MainLevel_Auto1.umap'
+[2025.07.18-20.16.24:758][ 38]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/MainLevel' took 0.038
+[2025.07.18-20.16.24:758][ 38]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.038
+[2025.07.18-20.16.30:348][699]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.07.18-20.16.30:348][699]PIE: New page: SIE session: MainLevel (Jul 18, 2025, 12:16:30 PM)
+[2025.07.18-20.16.30:376][699]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2025.07.18-20.16.30:378][699]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002538s)
+[2025.07.18-20.16.30:378][699]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.002577s)
+[2025.07.18-20.16.30:378][699]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.07.18-20.16.30:378][699]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.07.18-20.16.30:379][699]LogAIModule: Creating AISystem for world MainLevel
+[2025.07.18-20.16.30:379][699]LogPlayLevel: PIE: World Init took: (0.000752s)
+[2025.07.18-20.16.30:399][699]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.07.18-20.16.30:400][699]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.07.18-20.16.30:400][699]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.07.18-20.16.30:400][699]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.07.18-20.16.30:400][699]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.07.18-20.16.30:400][699]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.07.18-20.16.30:400][699]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.07.18-20.16.30:400][699]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2025.07.18-20.16.30:400][699]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.07.18-20.16.30:400][699]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.07.18-20.16.30:401][699]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.07.18-20.16.30:401][699]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.07.18-20.16.30:401][699]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.07.18-20.16.30:403][699]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.07.18-20.16.30:428][699]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2025.07.18-20.16.30:429][699]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.07.18-20.16.30:429][699]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.07.18-20.16.30:429][699]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.07.18-20.16.30:429][699]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.07.18-20.16.30:429][699]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2025.07.18-20.16.30:431][699]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.07.18-20.16.30:431][699]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.07.18-20.16.30:431][699]LogInit: FAudioDevice initialized with ID 6.
+[2025.07.18-20.16.30:431][699]LogAudio: Display: Audio Device (ID: 6) registered with world 'MainLevel'.
+[2025.07.18-20.16.30:431][699]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.07.18-20.16.30:433][699]LogLoad: Game class is 'GameModeBase'
+[2025.07.18-20.16.30:439][699]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2025.07.18-16.16.30
+[2025.07.18-20.16.30:439][699]LogWorld: Bringing up level for play took: 0.005738
+[2025.07.18-20.16.30:441][699]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2025.07.18-20.16.30:441][699]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.07.18-20.16.30:446][699]PIE: Server logged in
+[2025.07.18-20.16.30:447][699]PIE: Play in editor total start time 0.099 seconds.
+[2025.07.18-20.16.30:448][699]LogScript: Warning: Accessed None trying to read property Spline
+	Bp_MainCharacter_C /Game/Levels/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.Bp_MainCharacter_C_10
+	Function /Game/Blueprints/Player/Bp_MainCharacter.Bp_MainCharacter_C:ExecuteUbergraph_Bp_MainCharacter:04BC
+[2025.07.18-20.16.30:448][699]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:448][699]LogScript: Warning: Accessed None
+	Bp_MainCharacter_C /Game/Levels/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.Bp_MainCharacter_C_10
+	Function /Game/Blueprints/Player/Bp_MainCharacter.Bp_MainCharacter_C:ExecuteUbergraph_Bp_MainCharacter:04D1
+[2025.07.18-20.16.30:448][699]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:509][700]LogScript: Warning: Accessed None trying to read property Spline
+	Bp_MainCharacter_C /Game/Levels/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.Bp_MainCharacter_C_10
+	Function /Game/Blueprints/Player/Bp_MainCharacter.Bp_MainCharacter_C:ExecuteUbergraph_Bp_MainCharacter:04BC
+[2025.07.18-20.16.30:509][700]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:509][700]LogScript: Warning: Accessed None
+	Bp_MainCharacter_C /Game/Levels/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.Bp_MainCharacter_C_10
+	Function /Game/Blueprints/Player/Bp_MainCharacter.Bp_MainCharacter_C:ExecuteUbergraph_Bp_MainCharacter:04D1
+[2025.07.18-20.16.30:509][700]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:522][701]LogScript: Warning: Accessed None trying to read property Spline
+	Bp_MainCharacter_C /Game/Levels/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.Bp_MainCharacter_C_10
+	Function /Game/Blueprints/Player/Bp_MainCharacter.Bp_MainCharacter_C:ExecuteUbergraph_Bp_MainCharacter:04BC
+[2025.07.18-20.16.30:522][701]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:522][701]LogScript: Warning: Accessed None
+	Bp_MainCharacter_C /Game/Levels/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.Bp_MainCharacter_C_10
+	Function /Game/Blueprints/Player/Bp_MainCharacter.Bp_MainCharacter_C:ExecuteUbergraph_Bp_MainCharacter:04D1
+[2025.07.18-20.16.30:522][701]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:530][702]LogScript: Warning: Accessed None trying to read property Spline
+	Bp_MainCharacter_C /Game/Levels/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.Bp_MainCharacter_C_10
+	Function /Game/Blueprints/Player/Bp_MainCharacter.Bp_MainCharacter_C:ExecuteUbergraph_Bp_MainCharacter:04BC
+[2025.07.18-20.16.30:531][702]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:531][702]LogScript: Warning: Accessed None
+	Bp_MainCharacter_C /Game/Levels/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.Bp_MainCharacter_C_10
+	Function /Game/Blueprints/Player/Bp_MainCharacter.Bp_MainCharacter_C:ExecuteUbergraph_Bp_MainCharacter:04D1
+[2025.07.18-20.16.30:531][702]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:539][703]LogScript: Warning: Accessed None trying to read property Spline
+	Bp_MainCharacter_C /Game/Levels/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.Bp_MainCharacter_C_10
+	Function /Game/Blueprints/Player/Bp_MainCharacter.Bp_MainCharacter_C:ExecuteUbergraph_Bp_MainCharacter:04BC
+[2025.07.18-20.16.30:539][703]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:539][703]LogScript: Warning: Accessed None
+	Bp_MainCharacter_C /Game/Levels/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.Bp_MainCharacter_C_10
+	Function /Game/Blueprints/Player/Bp_MainCharacter.Bp_MainCharacter_C:ExecuteUbergraph_Bp_MainCharacter:04D1
+[2025.07.18-20.16.30:539][703]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:547][704]LogScript: Warning: Accessed None trying to read property Spline
+	Bp_MainCharacter_C /Game/Levels/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.Bp_MainCharacter_C_10
+	Function /Game/Blueprints/Player/Bp_MainCharacter.Bp_MainCharacter_C:ExecuteUbergraph_Bp_MainCharacter:04BC
+[2025.07.18-20.16.30:547][704]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:547][704]LogScript: Warning: Accessed None
+	Bp_MainCharacter_C /Game/Levels/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.Bp_MainCharacter_C_10
+	Function /Game/Blueprints/Player/Bp_MainCharacter.Bp_MainCharacter_C:ExecuteUbergraph_Bp_MainCharacter:04D1
+[2025.07.18-20.16.30:547][704]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:555][705]LogScript: Warning: Accessed None trying to read property Spline
+	Bp_MainCharacter_C /Game/Levels/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.Bp_MainCharacter_C_10
+	Function /Game/Blueprints/Player/Bp_MainCharacter.Bp_MainCharacter_C:ExecuteUbergraph_Bp_MainCharacter:04BC
+[2025.07.18-20.16.30:556][705]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:556][705]LogScript: Warning: Accessed None
+	Bp_MainCharacter_C /Game/Levels/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.Bp_MainCharacter_C_10
+	Function /Game/Blueprints/Player/Bp_MainCharacter.Bp_MainCharacter_C:ExecuteUbergraph_Bp_MainCharacter:04D1
+[2025.07.18-20.16.30:556][705]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:564][706]LogScript: Warning: Accessed None trying to read property Spline
+	Bp_MainCharacter_C /Game/Levels/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.Bp_MainCharacter_C_10
+	Function /Game/Blueprints/Player/Bp_MainCharacter.Bp_MainCharacter_C:ExecuteUbergraph_Bp_MainCharacter:04BC
+[2025.07.18-20.16.30:564][706]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:564][706]LogScript: Warning: Accessed None
+	Bp_MainCharacter_C /Game/Levels/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.Bp_MainCharacter_C_10
+	Function /Game/Blueprints/Player/Bp_MainCharacter.Bp_MainCharacter_C:ExecuteUbergraph_Bp_MainCharacter:04D1
+[2025.07.18-20.16.30:564][706]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:572][707]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:572][707]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:580][708]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:581][708]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:589][709]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:589][709]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:597][710]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:597][710]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:606][711]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:606][711]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:614][712]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:614][712]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:627][713]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:627][713]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:635][714]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:635][714]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:648][715]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:648][715]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:657][716]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:657][716]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:669][717]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:669][717]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:678][718]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:678][718]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:691][719]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:691][719]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:705][720]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:705][720]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:713][721]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:713][721]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:726][722]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:726][722]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:735][723]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:735][723]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:748][724]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:748][724]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:757][725]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:757][725]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:770][726]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:770][726]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:783][727]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:783][727]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:791][728]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:791][728]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:804][729]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:804][729]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:813][730]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:813][730]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:826][731]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:826][731]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:835][732]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:835][732]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:848][733]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:848][733]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:861][734]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:861][734]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:874][735]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:874][735]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:882][736]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:882][736]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:895][737]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:895][737]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:904][738]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:904][738]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:916][739]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:916][739]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:925][740]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:925][740]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:933][741]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:933][741]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:941][742]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:941][742]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:950][743]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:950][743]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:958][744]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:958][744]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:966][745]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:966][745]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:975][746]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:975][746]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:983][747]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:983][747]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:991][748]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.30:991][748]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:000][749]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:000][749]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:008][750]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:008][750]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:016][751]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:016][751]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:025][752]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:025][752]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:033][753]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:033][753]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:041][754]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:041][754]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:050][755]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:050][755]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:058][756]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:058][756]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:066][757]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:066][757]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:075][758]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:075][758]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:083][759]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:083][759]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:091][760]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:091][760]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:100][761]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:100][761]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:108][762]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:108][762]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:116][763]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:116][763]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:125][764]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:125][764]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:133][765]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:133][765]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:141][766]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:141][766]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:150][767]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:150][767]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:158][768]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:158][768]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:166][769]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:166][769]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:175][770]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:175][770]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:183][771]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:183][771]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:191][772]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:191][772]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:200][773]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:200][773]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:208][774]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:208][774]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:216][775]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:216][775]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:225][776]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:225][776]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:233][777]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:233][777]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:241][778]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:241][778]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:250][779]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:250][779]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:258][780]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:258][780]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:266][781]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:266][781]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:275][782]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:275][782]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:283][783]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:283][783]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:291][784]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:291][784]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:300][785]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:300][785]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:308][786]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:308][786]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:316][787]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:316][787]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:325][788]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:325][788]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:333][789]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:333][789]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:341][790]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:341][790]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:350][791]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:350][791]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:358][792]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:358][792]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:366][793]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:366][793]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:375][794]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:375][794]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:383][795]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:383][795]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:391][796]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:391][796]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:400][797]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:400][797]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:408][798]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:408][798]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:416][799]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:416][799]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:425][800]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:425][800]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:433][801]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:433][801]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:451][802]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:451][802]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:460][803]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:460][803]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:473][804]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:473][804]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:481][805]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:481][805]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:494][806]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:494][806]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:503][807]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:503][807]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:516][808]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:516][808]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:524][809]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:524][809]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:537][810]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:537][810]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:546][811]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:546][811]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:559][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:559][812]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:567][813]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:568][813]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:580][814]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:581][814]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:589][815]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:589][815]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:602][816]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:602][816]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:610][817]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:610][817]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:623][818]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:623][818]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:632][819]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:632][819]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:645][820]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:645][820]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:658][821]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:658][821]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:667][822]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:667][822]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:680][823]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:680][823]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:693][824]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:693][824]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:702][825]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:702][825]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:715][826]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:715][826]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:728][827]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:728][827]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:737][828]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:737][828]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:750][829]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:750][829]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:763][830]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:763][830]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:771][831]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:771][831]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:784][832]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:785][832]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:793][833]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:793][833]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:806][834]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:806][834]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:815][835]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:815][835]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:828][836]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:828][836]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:841][837]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:841][837]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:849][838]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:849][838]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:862][839]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:863][839]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:871][840]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:871][840]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:884][841]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:884][841]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:893][842]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:893][842]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:906][843]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:906][843]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:919][844]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:919][844]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:927][845]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:928][845]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:941][846]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:941][846]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:949][847]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:949][847]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:962][848]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:962][848]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:971][849]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:971][849]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:984][850]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:984][850]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:992][851]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.31:992][851]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:005][852]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:005][852]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:013][853]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:013][853]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:022][854]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:022][854]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:030][855]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:030][855]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:038][856]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:038][856]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:047][857]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:047][857]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:055][858]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:055][858]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:064][859]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:064][859]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:072][860]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:072][860]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:080][861]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:080][861]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:088][862]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:088][862]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:097][863]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:097][863]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:105][864]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:105][864]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:113][865]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:113][865]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:122][866]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:122][866]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:130][867]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:130][867]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:138][868]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:138][868]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:147][869]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:147][869]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:155][870]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:155][870]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:163][871]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:163][871]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:172][872]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:172][872]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:180][873]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:180][873]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:188][874]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:188][874]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:197][875]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:197][875]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:205][876]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:205][876]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:213][877]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:213][877]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:222][878]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:222][878]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:230][879]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:230][879]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:238][880]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:238][880]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:247][881]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:247][881]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:255][882]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:255][882]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:263][883]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:263][883]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:271][884]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:271][884]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:280][885]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:280][885]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:288][886]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:288][886]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:297][887]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:297][887]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:305][888]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:305][888]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:313][889]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:313][889]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:322][890]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:322][890]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:330][891]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:330][891]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:338][892]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:338][892]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:347][893]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:347][893]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:355][894]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:355][894]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:363][895]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:363][895]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:372][896]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:372][896]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:380][897]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:380][897]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:388][898]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:388][898]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:396][899]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:397][899]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:405][900]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:405][900]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:413][901]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:413][901]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:421][902]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:421][902]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:430][903]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:430][903]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:438][904]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:438][904]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:497][911]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Spline". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:497][911]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph Bp Main Character Blueprint:  Bp_MainCharacter
+[2025.07.18-20.16.32:546][911]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.18-20.16.32:546][911]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2025.07.18-20.16.32:547][911]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2025.07.18-20.16.32:547][911]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.18-20.16.32:549][911]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.07.18-20.16.32:554][911]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.18-20.16.32:572][911]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.07.18-20.16.32:572][911]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.07.18-20.16.32:573][911]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.07.18-20.16.32:574][911]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.07.18-20.16.32:578][911]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.18-20.16.32:580][911]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.07.18-20.16.32:681][912]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2025.07.18-20.16.40:023][747]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player/Bp_MainCharacter.Bp_MainCharacter
+[2025.07.18-20.16.40:024][747]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.07.18-20.16.40:024][747]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.07.18-20.16.48:506][506]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.18-20.16.48:525][506]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/Bp_MainCharacter" FILE="C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Content/Blueprints/Player/Bp_MainCharacter.uasset" SILENT=true
+[2025.07.18-20.16.48:536][506]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/Bp_MainCharacter
+[2025.07.18-20.16.48:537][506]LogSavePackage: Moving 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Saved/Bp_MainCharacter346B673F4BDC0C199F545FBCC083F9EB.tmp' to 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Content/Blueprints/Player/Bp_MainCharacter.uasset'
+[2025.07.18-20.16.48:544][506]LogFileHelpers: InternalPromptForCheckoutAndSave took 38 ms (total: 407 ms)
+[2025.07.18-20.16.48:550][506]AssetCheck: New page: Asset Save: Bp_MainCharacter
+[2025.07.18-20.16.48:550][506]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/Bp_MainCharacter.Bp_MainCharacter
+[2025.07.18-20.16.51:431][818]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.18-20.16.51:459][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainLevel" FILE="C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Content/Levels/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.07.18-20.16.51:480][818]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2025.07.18-20.16.51:488][818]LogSavePackage: Moving output files for package: /Game/Levels/MainLevel
+[2025.07.18-20.16.51:488][818]LogSavePackage: Moving 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Saved/MainLevelF0DE15F74C4D50714959518A7FF16D9A.tmp' to 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Content/Levels/MainLevel.umap'
+[2025.07.18-20.16.51:496][818]LogFileHelpers: No new changes to save!
+[2025.07.18-20.16.51:496][818]LogFileHelpers: Saving map 'MainLevel' took 0.037
+[2025.07.18-20.16.51:502][818]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 479 ms)
+[2025.07.18-20.16.51:507][818]AssetCheck: New page: Asset Save: MainLevel
+[2025.07.18-20.16.51:508][818]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainLevel.MainLevel
+[2025.07.18-20.16.54:127][125]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.07.18-20.19.25:259][275]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.07.18-20.19.25:270][275]LogContentBrowser: Creating deferred item: NewFolder
+[2025.07.18-20.19.25:276][276]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.07.18-20.19.31:032][966]LogContentBrowser: Attempting asset rename: NewFolder -> RandomPaperAssets
+[2025.07.18-20.19.31:033][966]LogContentBrowser: End creating deferred item NewFolder
+[2025.07.18-20.19.46:942][572]LogInterchangeEngine: [Pending] Importing
+[2025.07.18-20.19.46:942][572]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/wooki/Downloadsmeatsphere.png]
+[2025.07.18-20.19.46:944][572]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2025.07.18-20.19.46:946][572]LogTexture: Display: Building textures: /Game/Paper2D/RandomPaperAssets/meatsphere.meatsphere (TFO_AutoDXT, 16x16 x1x1x1) (Required Memory Estimate: 0.102826 MB), EncodeSpeed: Fast
+[2025.07.18-20.19.46:953][572]LogInterchangeEngine: [Success] Import Done
+[2025.07.18-20.19.47:034][573]LogInterchangeEngine: [Success] Import Done
+[2025.07.18-20.19.48:545][612]LogInterchangeEngine: [Pending] Importing
+[2025.07.18-20.19.48:545][612]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/wooki/Downloadsmenu.png]
+[2025.07.18-20.19.48:546][612]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2025.07.18-20.19.48:548][612]LogTexture: Display: Building textures: /Game/Paper2D/RandomPaperAssets/menu.menu (TFO_AutoDXT, 64x384 x1x1x1) (Required Memory Estimate: 3.9375 MB), EncodeSpeed: Fast
+[2025.07.18-20.19.48:554][612]LogInterchangeEngine: [Success] Import Done
+[2025.07.18-20.19.48:571][613]LogInterchangeEngine: [Success] Import Done
+[2025.07.18-20.19.50:828][725]LogInterchangeEngine: [Pending] Importing
+[2025.07.18-20.19.50:828][725]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/wooki/Downloadsfrying_pan.png]
+[2025.07.18-20.19.50:829][725]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2025.07.18-20.19.50:830][725]LogTexture: Display: Building textures: /Game/Paper2D/RandomPaperAssets/frying_pan.frying_pan (TFO_AutoDXT, 64x32 x1x1x1) (Required Memory Estimate: 0.38534 MB), EncodeSpeed: Fast
+[2025.07.18-20.19.50:836][725]LogInterchangeEngine: [Success] Import Done
+[2025.07.18-20.19.50:850][726]LogInterchangeEngine: [Success] Import Done
+[2025.07.18-20.19.57:819][181]LogTexture: Display: Building textures: /Game/Paper2D/RandomPaperAssets/meatsphere.meatsphere (BGRA8, 16x16 x1x1x1) (Required Memory Estimate: 0.069981 MB), EncodeSpeed: Fast
+[2025.07.18-20.19.59:960][425]LogTexture: Display: Building textures: /Game/Paper2D/RandomPaperAssets/menu.menu (BGRA8, 64x384 x1x1x1) (Required Memory Estimate: 0.78125 MB), EncodeSpeed: Fast
+[2025.07.18-20.20.02:808][749]LogTexture: Display: Building textures: /Game/Paper2D/RandomPaperAssets/frying_pan.frying_pan (BGRA8, 64x32 x1x1x1) (Required Memory Estimate: 0.122383 MB), EncodeSpeed: Fast
+[2025.07.18-20.20.25:091][344]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.18-20.20.25:118][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainLevel" FILE="C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Content/Levels/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.07.18-20.20.25:142][344]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.07.18-20.20.25:149][344]LogSavePackage: Moving output files for package: /Game/Levels/MainLevel
+[2025.07.18-20.20.25:150][344]LogSavePackage: Moving 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Saved/MainLevelD566F4A1470DE73A1A345EAC7FEB3539.tmp' to 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Content/Levels/MainLevel.umap'
+[2025.07.18-20.20.25:158][344]LogFileHelpers: No new changes to save!
+[2025.07.18-20.20.25:158][344]LogFileHelpers: Saving map 'MainLevel' took 0.040
+[2025.07.18-20.20.25:164][344]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 551 ms)
+[2025.07.18-20.20.25:169][344]AssetCheck: New page: Asset Save: MainLevel
+[2025.07.18-20.20.25:169][344]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainLevel.MainLevel
+[2025.07.18-20.20.29:317][835]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/FoodFalling/FoodFaller.FoodFaller
+[2025.07.18-20.20.29:318][835]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.07.18-20.20.29:318][835]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.07.18-20.20.39:926][654]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.07.18-20.20.41:971][809]BlueprintLog: New page: Compile FallingFoodball
+[2025.07.18-20.20.42:019][809]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.07.18-20.20.42:425][832]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.18-20.20.42:461][832]LogSavePackage: Moving output files for package: /Game/Blueprints/FoodFalling/FallingFoodball
+[2025.07.18-20.20.42:462][832]LogSavePackage: Moving 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Saved/FallingFoodballD9EEB6E3458EAEDDCEA29C9BDE932F32.tmp' to 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Content/Blueprints/FoodFalling/FallingFoodball.uasset'
+[2025.07.18-20.20.42:470][832]LogFileHelpers: InternalPromptForCheckoutAndSave took 44 ms (total: 596 ms)
+[2025.07.18-20.20.42:475][832]AssetCheck: New page: Asset Save: FallingFoodball
+[2025.07.18-20.20.42:475][832]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/FoodFalling/FallingFoodball.FallingFoodball
+[2025.07.18-20.20.44:673][ 51]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2025.07.18-20.20.44:699][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.07.18-20.20.44:720][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.07.18-20.20.45:889][ 51]LogSlate: Window 'Save Content' being destroyed
+[2025.07.18-20.20.45:898][ 51]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.18-20.20.45:916][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainLevel" FILE="C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Content/Levels/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.07.18-20.20.45:936][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.07.18-20.20.45:943][ 51]LogSavePackage: Moving output files for package: /Game/Levels/MainLevel
+[2025.07.18-20.20.45:944][ 51]LogSavePackage: Moving 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Saved/MainLevel46D8C2A4462A7551E01A2EA8B7B2B0CA.tmp' to 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Content/Levels/MainLevel.umap'
+[2025.07.18-20.20.45:952][ 51]LogFileHelpers: No new changes to save!
+[2025.07.18-20.20.45:952][ 51]LogFileHelpers: Saving map 'MainLevel' took 0.036
+[2025.07.18-20.20.45:954][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Paper2D/RandomPaperAssets/frying_pan" FILE="C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Content/Paper2D/RandomPaperAssets/frying_pan.uasset" SILENT=true
+[2025.07.18-20.20.45:956][ 51]LogSavePackage: Moving output files for package: /Game/Paper2D/RandomPaperAssets/frying_pan
+[2025.07.18-20.20.45:956][ 51]LogSavePackage: Moving 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Saved/frying_panE7BDF5214DDA1F7C01357E9A636014CA.tmp' to 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Content/Paper2D/RandomPaperAssets/frying_pan.uasset'
+[2025.07.18-20.20.45:963][ 51]LogSavePackage: Moving output files for package: /Game/Paper2D/RandomPaperAssets/frying_pan_Sprite
+[2025.07.18-20.20.45:963][ 51]LogSavePackage: Moving 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Saved/frying_pan_Sprite2762DC42492881BE556BC18F785D5551.tmp' to 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Content/Paper2D/RandomPaperAssets/frying_pan_Sprite.uasset'
+[2025.07.18-20.20.45:965][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Paper2D/RandomPaperAssets/meatsphere" FILE="C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Content/Paper2D/RandomPaperAssets/meatsphere.uasset" SILENT=true
+[2025.07.18-20.20.45:967][ 51]LogSavePackage: Moving output files for package: /Game/Paper2D/RandomPaperAssets/meatsphere
+[2025.07.18-20.20.45:967][ 51]LogSavePackage: Moving 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Saved/meatsphereD46236F548D4431200686DB17DDAA10B.tmp' to 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Content/Paper2D/RandomPaperAssets/meatsphere.uasset'
+[2025.07.18-20.20.45:972][ 51]LogSavePackage: Moving output files for package: /Game/Paper2D/RandomPaperAssets/meatsphere_Sprite
+[2025.07.18-20.20.45:972][ 51]LogSavePackage: Moving 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Saved/meatsphere_SpriteF5C1DC5D4C0E6E4F979AD8B59BDF1756.tmp' to 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Content/Paper2D/RandomPaperAssets/meatsphere_Sprite.uasset'
+[2025.07.18-20.20.45:974][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Paper2D/RandomPaperAssets/menu" FILE="C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Content/Paper2D/RandomPaperAssets/menu.uasset" SILENT=true
+[2025.07.18-20.20.45:976][ 51]LogSavePackage: Moving output files for package: /Game/Paper2D/RandomPaperAssets/menu
+[2025.07.18-20.20.45:976][ 51]LogSavePackage: Moving 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Saved/menu455ED9D84021F165ED552BB5471A7D95.tmp' to 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Content/Paper2D/RandomPaperAssets/menu.uasset'
+[2025.07.18-20.20.45:981][ 51]LogSavePackage: Moving output files for package: /Game/Paper2D/RandomPaperAssets/menu_Sprite
+[2025.07.18-20.20.45:981][ 51]LogSavePackage: Moving 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Saved/menu_SpriteB19E980D40B76AC55551A7B2EDB05E90.tmp' to 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Content/Paper2D/RandomPaperAssets/menu_Sprite.uasset'
+[2025.07.18-20.20.45:988][ 51]LogFileHelpers: InternalPromptForCheckoutAndSave took 90 ms (total: 686 ms)
+[2025.07.18-20.20.46:008][ 52]AssetCheck: New page: Asset Save: multiple assets
+[2025.07.18-20.20.46:008][ 52]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainLevel.MainLevel
+[2025.07.18-20.20.46:008][ 52]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Paper2D/RandomPaperAssets/meatsphere.meatsphere
+[2025.07.18-20.20.46:008][ 52]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Paper2D/RandomPaperAssets/menu.menu
+[2025.07.18-20.20.46:008][ 52]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Paper2D/RandomPaperAssets/frying_pan.frying_pan
+[2025.07.18-20.20.46:008][ 52]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/Paper2D/RandomPaperAssets/meatsphere_Sprite.meatsphere_Sprite
+[2025.07.18-20.20.46:008][ 52]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/Paper2D/RandomPaperAssets/frying_pan_Sprite.frying_pan_Sprite
+[2025.07.18-20.20.46:008][ 52]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/Paper2D/RandomPaperAssets/menu_Sprite.menu_Sprite
+[2025.07.18-20.22.27:789][106]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2025.07.18-20.22.29:276][283]LogSlate: Window 'Message Log' being destroyed
+[2025.07.18-20.22.29:282][283]LogSlate: Window 'Message Log' being destroyed
+[2025.07.18-20.23.08:802][409]LogContentBrowser: Deferred new asset file creation: FallingFoodball1
+[2025.07.18-20.23.08:812][409]LogContentBrowser: Creating deferred item: FallingFoodball1
+[2025.07.18-20.23.08:822][410]LogContentBrowser: Renaming the item being created (Deferred Item: FallingFoodball1).
+[2025.07.18-20.23.15:618][223]LogContentBrowser: Attempting asset rename: FallingFoodball1 -> FallingFoodThyme
+[2025.07.18-20.23.15:651][223]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.07.18-20.23.15:668][223]LogContentBrowser: End creating deferred item FallingFoodball1
+[2025.07.18-20.23.17:133][398]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/FoodFalling/FallingFoodThyme.FallingFoodThyme
+[2025.07.18-20.23.17:133][398]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.07.18-20.23.17:133][398]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.07.18-20.23.35:032][775]BlueprintLog: New page: Compile FallingFoodThyme
+[2025.07.18-20.23.35:073][775]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2025.07.18-20.23.35:691][814]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.18-20.23.35:728][814]LogSavePackage: Moving output files for package: /Game/Blueprints/FoodFalling/FallingFoodThyme
+[2025.07.18-20.23.35:728][814]LogSavePackage: Moving 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Saved/FallingFoodThymeCC2FC0274497A37E03B31FA02C8D7BFA.tmp' to 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Content/Blueprints/FoodFalling/FallingFoodThyme.uasset'
+[2025.07.18-20.23.35:737][814]LogFileHelpers: InternalPromptForCheckoutAndSave took 45 ms (total: 732 ms)
+[2025.07.18-20.23.35:742][814]AssetCheck: New page: Asset Save: FallingFoodThyme
+[2025.07.18-20.23.35:742][814]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/FoodFalling/FallingFoodThyme.FallingFoodThyme
+[2025.07.18-20.23.38:530][ 98]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2025.07.18-20.23.38:557][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2025.07.18-20.24.03:699][571]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.18-20.24.03:718][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainLevel" FILE="C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Content/Levels/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.07.18-20.24.03:739][571]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.07.18-20.24.03:746][571]LogSavePackage: Moving output files for package: /Game/Levels/MainLevel
+[2025.07.18-20.24.03:746][571]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Content/Levels/MainLevel.umap' to 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Saved/MainLevel5637B5234B2A176732B610A302EDAC2E.tmp' (Error Code 32), retrying in .5s...
+[2025.07.18-20.24.04:247][571]LogFileManager: Warning: MoveFile recovered during retry!
+[2025.07.18-20.24.04:247][571]LogSavePackage: Moving 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Saved/MainLevel1AD9900E4C4660A5DC08708400DBDC69.tmp' to 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Content/Levels/MainLevel.umap'
+[2025.07.18-20.24.04:254][571]LogFileHelpers: No new changes to save!
+[2025.07.18-20.24.04:254][571]LogFileHelpers: Saving map 'MainLevel' took 0.537
+[2025.07.18-20.24.04:260][571]LogFileHelpers: InternalPromptForCheckoutAndSave took 560 ms (total: 1.29 sec)
+[2025.07.18-20.24.04:267][571]AssetCheck: New page: Asset Save: MainLevel
+[2025.07.18-20.24.04:268][571]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainLevel.MainLevel
+[2025.07.18-20.24.14:878][597]BlueprintLog: New page: Compile FoodFaller
+[2025.07.18-20.24.14:928][597]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.07.18-20.24.15:495][632]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.18-20.24.15:521][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFalling/FoodFaller" FILE="C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Content/Blueprints/FoodFalling/FoodFaller.uasset" SILENT=true
+[2025.07.18-20.24.15:530][632]LogSavePackage: Moving output files for package: /Game/Blueprints/FoodFalling/FoodFaller
+[2025.07.18-20.24.15:531][632]LogSavePackage: Moving 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Saved/FoodFaller9D7304504515512E99DD1EBAEB3EEED3.tmp' to 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Content/Blueprints/FoodFalling/FoodFaller.uasset'
+[2025.07.18-20.24.15:538][632]LogFileHelpers: InternalPromptForCheckoutAndSave took 43 ms (total: 1.33 sec)
+[2025.07.18-20.24.15:544][632]AssetCheck: New page: Asset Save: FoodFaller
+[2025.07.18-20.24.15:544][632]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/FoodFalling/FoodFaller.FoodFaller
+[2025.07.18-20.24.17:089][781]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2025.07.18-20.24.17:116][781]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.07.18-20.24.17:139][781]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.07.18-20.24.18:647][781]LogSlate: Window 'Save Content' being destroyed
+[2025.07.18-20.24.18:656][781]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.18-20.24.18:686][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainLevel" FILE="C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Content/Levels/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.07.18-20.24.18:707][781]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.07.18-20.24.18:714][781]LogSavePackage: Moving output files for package: /Game/Levels/MainLevel
+[2025.07.18-20.24.18:714][781]LogSavePackage: Moving 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Saved/MainLevel1085D1014E3CFED8FBAD75A7AD4B777F.tmp' to 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Content/Levels/MainLevel.umap'
+[2025.07.18-20.24.18:722][781]LogFileHelpers: No new changes to save!
+[2025.07.18-20.24.18:722][781]LogFileHelpers: Saving map 'MainLevel' took 0.037
+[2025.07.18-20.24.18:728][781]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 1.40 sec)
+[2025.07.18-20.24.18:748][782]AssetCheck: New page: Asset Save: MainLevel
+[2025.07.18-20.24.18:748][782]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainLevel.MainLevel
+[2025.07.18-20.27.05:630][626]LogViewport: Scene viewport resized to 1190x691, mode Windowed.
+[2025.07.18-20.27.11:357][ 54]LogEditorTransaction: Undo Modify Component(s)
+[2025.07.18-20.27.16:714][429]Cmd: MODE ROTGRID=0
+[2025.07.18-20.27.26:209][140]BlueprintLog: New page: Compile FallingFoodThyme
+[2025.07.18-20.27.26:294][140]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.07.18-20.27.27:179][201]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.18-20.27.27:222][201]LogSavePackage: Moving output files for package: /Game/Blueprints/FoodFalling/FallingFoodThyme
+[2025.07.18-20.27.27:223][201]LogSavePackage: Moving 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Saved/FallingFoodThyme04D2855E4DD493322794D1A1C58A9009.tmp' to 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Content/Blueprints/FoodFalling/FallingFoodThyme.uasset'
+[2025.07.18-20.27.27:230][201]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 1.45 sec)
+[2025.07.18-20.27.27:236][201]AssetCheck: New page: Asset Save: FallingFoodThyme
+[2025.07.18-20.27.27:236][201]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/FoodFalling/FallingFoodThyme.FallingFoodThyme
+[2025.07.18-20.27.55:665][407]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.18-20.27.55:708][407]LogSavePackage: Moving output files for package: /Game/Blueprints/FoodFalling/FallingFoodThyme
+[2025.07.18-20.27.55:709][407]LogSavePackage: Moving 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Saved/FallingFoodThyme9385827E4F2BD65EF6A5C4B5EEEFEB45.tmp' to 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Content/Blueprints/FoodFalling/FallingFoodThyme.uasset'
+[2025.07.18-20.27.55:717][407]LogFileHelpers: InternalPromptForCheckoutAndSave took 51 ms (total: 1.51 sec)
+[2025.07.18-20.27.55:723][407]AssetCheck: New page: Asset Save: FallingFoodThyme
+[2025.07.18-20.27.55:723][407]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/FoodFalling/FallingFoodThyme.FallingFoodThyme
+[2025.07.18-20.27.57:353][518]LogSlate: Window 'FallingFoodThyme' being destroyed
+[2025.07.18-20.27.57:361][518]LogSlate: Window 'FallingFoodThyme' being destroyed
+[2025.07.18-20.27.57:365][518]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.07.18-20.27.57:365][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.18-20.27.57:400][518]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.07.18-20.27.57:400][518]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.07.18-20.27.57:400][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.18-20.27.57:434][518]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.07.18-20.27.57:434][518]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.07.18-20.27.57:434][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.18-20.27.57:467][518]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.07.18-20.27.57:467][518]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.07.18-20.27.57:467][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.18-20.27.57:503][518]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.07.18-20.27.57:503][518]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.07.18-20.27.57:503][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.18-20.27.57:537][518]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.07.18-20.27.57:537][518]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.07.18-20.27.57:537][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.18-20.27.57:569][518]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.07.18-20.27.57:569][518]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.07.18-20.27.57:569][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.18-20.27.57:599][518]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.07.18-20.27.57:599][518]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.07.18-20.27.57:599][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.18-20.27.57:630][518]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.07.18-20.27.57:630][518]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.07.18-20.27.57:630][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.18-20.27.57:656][518]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.07.18-20.27.57:656][518]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.07.18-20.27.57:656][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.18-20.27.57:679][518]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.07.18-20.27.57:679][518]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.07.18-20.27.57:679][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.18-20.27.59:106][683]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.18-20.27.59:133][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainLevel" FILE="C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Content/Levels/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.07.18-20.27.59:157][683]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.07.18-20.27.59:171][683]LogSavePackage: Moving output files for package: /Game/Levels/MainLevel
+[2025.07.18-20.27.59:171][683]LogSavePackage: Moving 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Saved/MainLevelB6185EE3404E5D6055FB09849D821790.tmp' to 'C:/Users/wooki/Documents/GitHub/CookingJam/GameJameCooking/Content/Levels/MainLevel.umap'
+[2025.07.18-20.27.59:179][683]LogFileHelpers: No new changes to save!
+[2025.07.18-20.27.59:179][683]LogFileHelpers: Saving map 'MainLevel' took 0.046
+[2025.07.18-20.27.59:185][683]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 1.58 sec)
+[2025.07.18-20.27.59:191][683]AssetCheck: New page: Asset Save: MainLevel
+[2025.07.18-20.27.59:191][683]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainLevel.MainLevel
+[2025.07.18-20.28.10:579][ 32]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2025.07.18-20.28.10:604][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
